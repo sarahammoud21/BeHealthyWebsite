@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url("bb.png");
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="head">
+        <img src="logo.JPEG" width="100" height="60" alt="Logo">
+        <a href="Index.html"><strong>Home</strong></a>
+        <a href="AboutUs.html"><strong>About Us</strong></a>
+
+        <div style="float:right">
+            <br><a href="login.html"><strong>LogIn</Strong></a>
+            <a href="signup.html"><strong>SignUp</Strong></a>
+        </div>
+    </header>
+    <section>
+        <form method="post" action="login.php">
+            <div class="box1">
+                <div class="box2">
+
+                    <h1>Admin login</h1>
+
+                </div>
+
+                <div class="box3">
+
+                    <input type="email" class="container1" placeholder="email" name="email" required />
+                    <input type="password" class="container2" placeholder="password" name="password" required />
+                    <br />
+                    <h6><a href="restpass.html">Forgot <span class="pas">Password?</a></span></h6>
+
+                    <a href="login.php"><input type="submit" class="submit1" value="login"></a>
+                </div>
+                <h5 class="txt2">
+                    <p>Don't have an account?</p>
+                </h5>
+                <h5 class="txt"><a href="signup.html">Sign up now</a></h5>
+
+        </form>
+        </div>
+    </section>
+    <footer>
+
+        <div id="footer">
+            <p>Contact us on our <a href="mailto:Sara@gmail.com">email</a>&copy;<em> Created by Group 3 2022</em></p>
+        </div>
+    </footer>
+</body>
+
+</html>

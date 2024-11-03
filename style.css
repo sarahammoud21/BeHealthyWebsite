@@ -1,0 +1,557 @@
+*{font-family: 'Poppins','sans-serif'; 
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+.head{
+    padding:20px;
+    text-align:Left;
+    display:inline-block;
+    width:100%;
+    font-size:15px;
+    background: rgb(24, 95, 24);
+    color:white;
+    white-space: nowrap;
+    
+    }
+
+
+.logo{
+   justify-content:left;
+}
+.navigation{
+    justify-self: right;
+    display: flex;
+    color: white;
+}
+#green{
+    color: rgb(24, 95, 24);
+}
+.Homenevgation{
+    justify-content:flex-start ;
+    color: white;
+}
+.content{height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.reviews{
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: left;
+    text-align: left ;
+    
+    
+    
+}
+.reviews h4{
+    background-color:rgb(24, 95, 24);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    
+
+}
+
+.box-handel{
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width:70.25em;
+    box-shadow: 2px 2px 30px rgb(50, 49, 49);
+    background-color: white;
+    padding: 20px;
+    margin:7px;
+
+}
+.Description{
+    width: fit-content;
+    background-color: white;
+    padding: 20px;
+    margin:6px;
+    box-shadow: 2px 2px 3px rgb(40, 39, 39);
+}
+
+.rating{
+    color: rgb(243, 237, 237);
+}
+.checked {
+    color: rgb(246, 228, 30);
+  }
+
+#footer{
+    position:fixed;
+    bottom:1px;
+    width:100%;
+    height:30px;   
+    background:rgb(24, 95, 24);
+    
+}
+
+.home h4{
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+
+}
+.Add{
+    width: 30%;
+    box-shadow: 2px 2px 15px black;
+    background-color: white;
+    padding: 20px;
+    margin:7px;
+}
+
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  
+  .row{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .button {
+    border: none;
+      color: white;
+        padding: 10px 27px;
+        text-align:center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+              }
+.head a{
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    font-size: 1.1em;
+    font: weight 200px;
+    padding-left: 20px;
+}
+.column a{
+    color: rgb(24, 95, 24);
+    text-decoration: none;
+    font-size: 1.1em;
+    font: weight 200px;
+    padding-left: 20px;
+}
+.head a:hover{
+    color: rgb(15, 18, 15);
+}
+.column a:hover{
+    color: rgb(7, 10, 7);
+}
+
+.box1{
+    background-color: white;
+    border-style: solid;
+    border-width: 0px;
+    border-color:whitesmoke;
+    height: 390px;
+    width: 320px;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    border-radius: 20px;
+    
+
+
+}
+.box2{
+    margin: 0px;
+    background-color: rgb(24, 95, 24);
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+h1{
+    color: white;
+    padding-top: 42px;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+.container1{
+    border-style: solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border-color:white;
+    color:black;
+    padding:10px 60px 10px 20px;
+    display: block;
+    margin-bottom: 1px;
+   
+}
+.container2{
+    border-style: solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border-color:white;
+    color:black;
+    padding:10px 60px 10px 20px;
+    display: block;
+    margin-bottom: 1px;
+}
+.box3{
+    padding:30px 0px 0px 40px;
+
+}
+.box3 p{
+    text-align:center;
+}
+.submit{
+    text-transform: uppercase;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: rgb(24, 95, 24);
+    border-color: white;
+    color:white;
+    padding:10px 60px 10px 40px;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin:2.5cm;
+    margin:3em;
+    margin-top: auto;
+   
+}
+
+.pas{
+    color: rgb(24, 95, 24);
+ 
+}
+h6{
+    float: right;
+    padding: 0px 150px 0px 0px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-top: 0px;
+}
+a{
+    color:rgb(199,206,212);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.txt a{
+    color: rgb(24, 95, 24);
+    padding:40px 150px 80px 80px;
+    text-align: center;
+    font-weight: 600;
+   
+    text-transform: uppercase;
+  
+}
+.txt2{
+   color:rgb(199,206,212);
+   margin-left: -25px;
+   margin-top: -20px;
+   text-align: center;
+   font-weight: 600;
+   font-weight: bold;
+  
+}
+.submit1{
+    text-transform: uppercase;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: rgb(24, 95, 24);
+    border-color: white;
+    color:white;
+    padding:10px 60px 10px 40px;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin:2.5cm;
+    margin:3em;
+    margin-top: 30px;
+   
+}
+             
+.box11{
+    background-color: white;
+    border-style: solid;
+    border-width: 0px;
+    border-color:whitesmoke;
+    height: 450px;
+    width: 320px;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    border-radius: 20px;
+    
+
+
+}
+
+.txtt a{
+    color: rgb(24, 95, 24);
+    padding:40px 150px 80px 0px;
+    text-align: center;
+    font-weight: 600;
+   float:left;
+   margin-left: 100px;
+   margin-right: -46px;
+   margin-top: -50px;
+   
+  
+}
+.box66 {
+    width: 40%;
+    margin: 0 auto;
+    
+    padding: 35px;
+    
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  .button1 {
+    background-color: rgb(24, 95, 24);;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position:relative;
+    text-decoration: none;
+    bottom: 23px;
+    right: 600px;
+    left: 7px;
+    width: 150px;
+    text-align:center;
+  }
+  
+  .button1:hover {
+    background: rgb(8, 42, 8);
+  }
+  .overlay {
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 70px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    z-index: 20;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .form-container input[type=text] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  
+  .popup .content {
+    max-height: 40%;
+    overflow: auto;
+  }
+   .btn {
+    bottom:0px;
+    background-color: rgb(24, 95, 24);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+.move{
+    background-color: #fff;
+    width: 22.9em;
+    border-radius:10px;
+    padding: 25px;
+    margin: 27px;
+    transition: .5s ease;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    float: right;
+
+}
+.move:hover{
+    width: 20em;
+    height: 12em;
+    border-radius:50%;
+  
+}
+.move2{
+    background-color: #fff;
+    width: 30em;
+    border-radius:10px;
+    padding: 22px;
+    margin: 27px;
+    transition: .5s ease;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    float: right;
+
+}
+.move2:hover{
+    width: 20em;
+    height: 12em;
+    border-radius:50%;
+  
+}
+.icon-edit{
+    color: #000;
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 7px;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  
+  .icon-edit:hover {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: -1px;
+    width: 0px;
+    height: 0px;
+    border-left: solid 5px transparent;
+    border-right: solid 5px currentColor;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+  }
+  .edit-form {
+    background: #9ea58a4c;
+    border: 1px solid #90c40000;
+    
+    border-radius: 5px;
+    position: relative;
+    width: 450px;
+    height: 380px;
+    margin: 60px auto;
+    padding: 50px 30px 0 30px;
+    text-align: center;
+ }
+
+    .edit-form h5 {
+    color: white ;font-size: 150%;
+}
+    .edit-form label{
+        position:static;
+        color: rgb(11, 81, 12);
+        margin-left: -7%;
+    }
+    #lab1{
+        margin-left: -50%;
+        
+    }
+
+    .edit-form {
+        border-radius: 10%;
+    }
+    .ee label{
+        margin-left:10%;
+    }
+	.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
+
